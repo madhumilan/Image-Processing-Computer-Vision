@@ -1,0 +1,52 @@
+-- VERSION_5
+-- START DISKCACHE_2
+E:\HDA\ComputerVision\Python_CV\.metadata\.plugins\org.eclipse.core.resources\.projects\Sudoku\com.python.pydev.analysis\v2_indexcache
+sudoku_solver|1586113682200199000|E:\HDA\ComputerVision\Python_CV\Sudoku\sudoku_solver.py
+-- END DISKCACHE
+-- START DICTIONARY
+10
+6=Cube.__init__
+2=sudoku_solver
+10=Cube.set
+8=Grid.select
+1=E:\HDA\ComputerVision\Python_CV\Sudoku\sudoku_solver.py
+7=Grid.update_model
+4=Cube
+9=Cube.set_temp
+3=Grid
+5=Grid.__init__
+-- END DICTIONARY
+-- START TREE 1
+7
+cub|1|Cube!1^160#7*17@
+fin|1|find_empty!1^212#5*18@
+for|1|format_time!1^257#5*18@
+gri|1|Grid!1^12#7*17@
+mai|1|main!1^265#5*18@
+red|1|redraw_window!1^244#5*18@
+val|1|valid!1^220#5*18@
+-- END TREE
+-- START TREE 2
+21
+__i|2|__init__!3&1^27#9*18@__init__!4&1^164#9*18@
+boa|1|board!3&1^24#5*19@
+cle|1|clear!3&1^116#9*18@
+cli|1|click!3&1^84#9*18@
+col|3|cols!5&1^29#9*19@cols!4&1^162#5*19@col!6&1^168#9*19@
+cub|1|cubes!5&1^30#9*19@
+dra|3|draw_change!4&1^196#9*18@draw!3&1^59#9*18@draw!4&1^179#9*18@
+hei|2|height!5&1^32#9*19@height!6&1^170#9*19@
+is_|1|is_finished!3&1^124#9*18@
+mod|2|model!5&1^33#9*19@model!7&1^39#9*19@
+pla|1|place!3&1^41#9*18@
+row|3|rows!5&1^28#9*19@rows!4&1^161#5*19@row!6&1^167#9*19@
+sel|4|select!3&1^75#9*18@selected!5&1^35#9*19@selected!8&1^82#9*19@selected!6&1^171#9*19@
+set|2|set!4&1^173#9*18@set_temp!4&1^176#9*18@
+ske|1|sketch!3&1^55#9*18@
+sol|2|solve_gui!3&1^132#9*18@solve!3&1^98#9*18@
+tem|2|temp!6&1^166#9*19@temp!9&1^177#9*19@
+upd|1|update_model!3&1^38#9*18@
+val|2|value!6&1^165#9*19@value!10&1^174#9*19@
+wid|2|width!5&1^31#9*19@width!6&1^169#9*19@
+win|1|win!5&1^36#9*19@
+-- END TREE

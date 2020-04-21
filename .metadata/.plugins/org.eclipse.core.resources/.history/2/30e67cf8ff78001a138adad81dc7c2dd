@@ -1,0 +1,46 @@
+'''
+Created on 06-Apr-2020
+
+@author: HP
+'''
+
+import cv2
+import numpy as np
+
+face_cascade = cv2.CascadeClassifier('cascades/data/haarcascade_frontalface_alt2.xml')
+recognizer = cv2.face.LBPHFaceRecognizer_create()
+recognizer.read("trainner.yml")
+
+vid = cv2.VideoCapture(0)
+
+while(True):
+    # Capture every frame
+    ret, frame = vid.read()
+    
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    faces = face_cascade.detectMultiScale(gray, scaleFactor = 1.5, minNeighbors = 5)
+    
+    for x,y,w,h in faces:
+        print(x,y,w,h)
+        #Region of interest
+        roi_gray = gray[y:y+h, x:x+w]
+        roi_rgb = frame[y:y+h, x:x+w]
+        face_image = "my_face_gray.png"
+        cv2.imwrite(face_image, roi_gray)
+        cv2.imwrite('my_face_rgb.png', roi_rgb)
+        
+        # Draw a rectangle
+        color = (255, 0, 0) # BGR
+        stroke = 3
+        width = x + w
+        height = y + h
+        cv2.rectangle(frame, (x, y), (width, height), color, stroke)
+    
+    # Display each frame
+    cv2.imshow('Frame', frame)
+    if cv2.waitKey(20) & 0xFF == ord('q'):
+        break
+    
+vid.release()
+cv2.destroyAllWindows()
+    

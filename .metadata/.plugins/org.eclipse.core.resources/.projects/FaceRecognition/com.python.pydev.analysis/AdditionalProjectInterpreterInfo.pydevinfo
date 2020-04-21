@@ -1,0 +1,52 @@
+-- VERSION_5
+-- START DISKCACHE_2
+E:\HDA\ComputerVision\Python_CV\.metadata\.plugins\org.eclipse.core.resources\.projects\FaceRecognition\com.python.pydev.analysis\v2_indexcache
+cascades.data.__init__|1583337854309442000|E:\HDA\ComputerVision\Python_CV\FaceRecognition\cascades\data\__init__.py
+faceRecognition|1586342001948343000|E:\HDA\ComputerVision\Python_CV\FaceRecognition\faceRecognition.py
+features_detector|1586422115028514000|E:\HDA\ComputerVision\Python_CV\FaceRecognition\features_detector.py
+faces_train|1586341976836774000|E:\HDA\ComputerVision\Python_CV\FaceRecognition\faces_train.py
+-- END DISKCACHE
+-- START DICTIONARY
+8
+8=cascades.data.__init__
+3=E:\HDA\ComputerVision\Python_CV\FaceRecognition\faceRecognition.py
+7=E:\HDA\ComputerVision\Python_CV\FaceRecognition\cascades\data\__init__.py
+1=E:\HDA\ComputerVision\Python_CV\FaceRecognition\faces_train.py
+5=E:\HDA\ComputerVision\Python_CV\FaceRecognition\features_detector.py
+4=faceRecognition
+6=features_detector
+2=faces_train
+-- END DICTIONARY
+-- START TREE 1
+27
+bas|1|BASE_DIR!1^14#1*19@
+col|1|color!3^43#13*35@
+cur|1|current_id!1^22#1*19@
+eye|2|eye_cascade!3^13#1*35@eyes!3^59#9*35@
+fac|4|face_cascade!1^18#1*19@face_cascade!3^12#1*35@faces!3^30#5*35@faces!1^48#13*19@
+fin|2|final!5^11#1*51@final_image!1^43#13*19@
+fon|1|font!3^41#13*35@
+gra|2|gray!5^5#1*51@gray!3^29#5*35@
+haa|1|haarcascades!7^3#1*67@
+hei|1|height!3^55#9*35@
+id_|1|id_!1^38#13*19@
+ima|2|image_array!1^45#13*19@image_dir!1^15#1*19@
+img|1|img!5^4#1*51@
+lab|3|labels!3^18#1*35@label!1^31#13*19@label_ids!1^23#1*19@
+nam|1|name!3^42#13*35@
+org|1|org_labels!3^20#5*35@
+pat|1|path!1^30#13*19@
+pil|1|pil_image!1^41#13*19@
+rec|2|recognizer!3^15#1*35@recognizer!1^20#1*19@
+roi|3|roi!1^51#17*19@roi_gray!3^35#9*35@roi_rgb!3^36#9*35@
+sif|1|sift!5^7#1*51@
+siz|1|size!1^42#13*19@
+str|1|stroke!3^44#13*35@
+vid|1|vid!3^23#1*35@
+wid|1|width!3^54#9*35@
+x_t|1|x_train!1^25#1*19@
+y_l|1|y_labels!1^24#1*19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

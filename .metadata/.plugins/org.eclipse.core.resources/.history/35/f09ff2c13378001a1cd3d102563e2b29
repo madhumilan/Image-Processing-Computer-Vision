@@ -1,0 +1,14 @@
+'''
+Created on 06-Apr-2020
+
+@author: HP
+'''
+
+import cv2
+import numpy as np
+
+vid = cv2.VideoCapture(0)
+    # Capture every frame
+    ret, frame = vid.read()
+    
+    

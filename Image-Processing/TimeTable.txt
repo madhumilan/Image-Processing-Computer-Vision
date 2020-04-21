@@ -1,0 +1,74 @@
+Summer Semester 2020 Time Table
+
+--------------------------------------------------------------------------
+Advanced Sensors for IoT (ASIOT) 
+
+Dear students,
+
+https://zoom.us/j/97634331882?pwd=Z2pLSVZjNWlDVi9oZTczVlVnM0pqZz09
+Meeting-ID: 976 3433 1882 
+Passwort: 008284 
+
+------------------------------------------------------------------------
+"state-space control design" will take place as ZOOM web meetings at the schedules times.
+
+URL of the ZOOM meeting:
+https://us02web.zoom.us/j/558063007?pwd=WFFZV3dMSURWSXk2dVdhNUJiT3c3UT09
+
+Meeting-ID: 558 063 007
+Password: 029247
+
+It is prohibited to transfer or share the login data and password with third parties.
+
+For attending the meeting, clear login names have be used (Naming convention: familyname_firstname_matriculationnumber).
+
+-------------------------------------------------------------------------
+
+Safety in Embedded Control Systems
+
+Peter Fromm is inviting you to a scheduled Zoom meeting.
+
+Topic: V: Safety in Embedded Control Systems
+Time: This is a recurring meeting Meet every Monday 17:45, starting 20.4.20
+
+Join Zoom Meeting
+https://us02web.zoom.us/j/84412270094?pwd=SXdMbm1aRGJMeFpYRjNtVkI1bFhEZz09
+
+Meeting ID: 844 1227 0094
+Password: 110016
+One tap mobile
++496950502596,,84412270094#,,#,110016# Germany
++496971049922,,84412270094#,,#,110016# Germany
+
+Dial by your location
+        +49 695 050 2596 Germany
+        +49 69 7104 9922 Germany
+        +49 30 5679 5800 Germany
+Meeting ID: 844 1227 0094
+Password: 110016
+Find your local number: https://us02web.zoom.us/u/kjxPiG1az
+
+
+-------------------------------------------------------------------------
+
+Advanced Graphical Programming (AGP) 
+
+lecture will start at 16:00 with an online ZOOM lecture.
+I'd like to ask you to register in our Moodle course with the password AGP20 if you have not already done.
+There you will find the ZOOM invitation under announcement of the lecturer.
+I am looking forward to welcome you all in the first lecture.
+
+--------------------------------------------------------------------------
+
+Digital System Design
+
+Thema: kick-off lecture Digital System Design
+Uhrzeit: 20.Apr.2020 04:00 PM Amsterdam, Berlin, Rom, Stockholm, Wien
+
+Zoom-Meeting beitreten
+https://us02web.zoom.us/j/89090516280?pwd=ellsT2h4Q3U1NVBiZzlDdU0wV0Vndz09
+
+Meeting-ID: 890 9051 6280
+Passwort: 024130
+
+

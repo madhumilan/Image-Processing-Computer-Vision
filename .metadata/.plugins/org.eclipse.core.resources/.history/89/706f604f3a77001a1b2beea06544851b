@@ -1,0 +1,58 @@
+'''
+Created on 05-Apr-2020
+
+@author: HP
+'''
+
+import pygame
+import time
+pygame.font.init()
+
+class Grid:
+    # Defining the board
+    board = [
+        [7, 8, 0, 4, 0, 0, 1, 2, 0],
+        [6, 0, 0, 0, 7, 5, 0, 0, 9],
+        [0, 0, 0, 6, 0, 1, 0, 7, 8],
+        [0, 0, 7, 0, 4, 0, 2, 6, 0],
+        [0, 0, 1, 0, 5, 0, 9, 3, 0],
+        [9, 0, 4, 0, 6, 0, 0, 0, 5],
+        [0, 7, 0, 3, 0, 0, 0, 1, 2],
+        [1, 2, 0, 0, 0, 7, 4, 0, 0],
+        [0, 4, 9, 2, 0, 6, 0, 0, 7]
+    ]
+    
+    # Constructor
+    def __init__(self, rows, cols, width, height, win):
+        self.rows = rows
+        self.cols = cols
+        self.cubes = [[Cube(self.board[i][j], i, j, width, height) for j in range(cols)] for i in range(rows)]
+        self.width = width
+        self.height = height
+        self.model = None
+        self.update_model()
+        self.selected = None
+        self.win = win
+
+
+
+class Cube:
+    rows = 9
+    cols = 9
+    
+    def __init__(self, value, row, col, width, height):
+        self.value = value
+        self.temp = 0
+        self.row = row
+        self.col = col
+        self.width = width
+        self.height = height
+        self.selected = False
+        
+        
+
+def main():
+    win = pygame.display.set_mode((540, 600))
+    pygame.display.set_caption("Play Sudoku")
+    board = Grid(9, 9, 540, 540, win)
+    

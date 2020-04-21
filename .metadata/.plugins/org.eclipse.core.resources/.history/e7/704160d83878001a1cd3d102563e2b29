@@ -1,0 +1,23 @@
+'''
+Created on 06-Apr-2020
+
+@author: HP
+'''
+
+import cv2
+import numpy as np
+
+vid = cv2.VideoCapture(0)
+
+while(True):
+    # Capture every frame
+    ret, frame = vid.read()
+    
+    # Display each frame
+    cv2.imshow('Frame', frame)
+    if cv2.waitKey(20) & 0xFF == ord('q'):
+        break
+    
+vid.release()
+cv2.destroyAllWindows()
+    

@@ -1,0 +1,28 @@
+'''
+Created on 04-Apr-2020
+
+@author: HP
+'''
+from gettext import find
+from builtins import True
+
+# solver.py
+
+def solve(board):
+    find = find_empty(board)
+    if find:
+        row, col = find
+    else:
+        return True
+    
+    for i in range(1,10):
+        if valid(board, (row, col), i):
+            board[row][col] = import
+            
+            if solve(board):
+                return True
+            
+            board[row][col] = 0
+            
+    return False
+
