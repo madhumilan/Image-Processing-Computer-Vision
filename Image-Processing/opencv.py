@@ -175,16 +175,16 @@ print(resized.shape)
 # cv2.imshow("Warped", dst)
 
 #--------------------------------------------
-# Perspective Transform
-sudoku = cv2.imread("images/sudoku.png")
-plt.subplot(121), plt.imshow(sudoku)
+# # Perspective Transform
+# sudoku = cv2.imread("images/sudoku.png")
+# plt.subplot(121), plt.imshow(sudoku)
 
-pts1 = np.float32([[48,53],[350,52],[18,365],[370,370]])
-pts2 = np.float32([[0,0],[350,0],[0,350],[350,350]])
-M = cv2.getPerspectiveTransform(pts1, pts2)
+# pts1 = np.float32([[48,53],[350,52],[18,365],[370,370]])
+# pts2 = np.float32([[0,0],[350,0],[0,350],[350,350]])
+# M = cv2.getPerspectiveTransform(pts1, pts2)
 
-res = cv2.warpPerspective(sudoku, M, (350,350))
-plt.subplot(122), plt.imshow(res), plt.title("Result"), plt.show()
+# res = cv2.warpPerspective(sudoku, M, (350,350))
+# plt.subplot(122), plt.imshow(res), plt.title("Result"), plt.show()
 
 #---------------------------------------------
 # # Averaging filters using kernels
@@ -221,3 +221,10 @@ plt.subplot(122), plt.imshow(res), plt.title("Result"), plt.show()
 # plt.subplot(121), plt.imshow(sudoku, cmap='gray'), plt.title("Original")
 # plt.subplot(122), plt.imshow(canny, cmap='gray'), plt.title("Canny Edge image")
 # plt.show()
+
+x = list(range(10))
+print("x =",x)
+pos = x[5:0:-1]
+print("pos =",pos)
+neg = x[5:0:-1]
+print("neg =",neg)
